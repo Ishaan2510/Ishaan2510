@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ishaan Goswami</h1>
 <h3 align="center">Software Developer focused on scalable backend systems & ML-powered applications</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ishaan2510&label=Profile%20views&color=0e75b6&style=flat" alt="ishaan2510" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Ishaan2510&label=Profile%20views&color=0e75b6&style=flat" alt="ishaan2510" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ishaan2510" alt="ishaan2510" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Ishaan2510" alt="ishaan2510" /></a> </p>
 
 - 🔭 I’m currently working on **Scalable backend systems and ML-integrated applications (F1 analytics & prediction platform)**
 
