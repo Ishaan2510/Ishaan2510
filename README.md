@@ -85,7 +85,7 @@ The production backend runs on Azure VM behind Nginx with gevent workers — cho
 - Atomic JSON write pattern to prevent clients from reading a half-written data file mid-update
 - Season-wide prediction scoring with a ±2 lap window and confidence multiplier
 
-[View Project →](https://github.com/Ishaan2510)
+[View Project →](https://github.com/Ishaan2510/pitlane-live)
 
 ---
 
@@ -100,8 +100,6 @@ The hard problem here was double-booking: two users booking the same spot at the
 - Celery async task layer: daily summary emails, monthly usage reports, CSV exports — all decoupled from the request lifecycle
 - Normalised schema across 5 entities with atomic state transitions on check-in/check-out
 
-[View Project →](https://github.com/Ishaan2510)
-
 ---
 
 ### TechReg Analyst — F1 Regulation RAG System
@@ -111,7 +109,7 @@ A production-grade RAG pipeline over 589 pages of FIA Formula 1 2026 Regulations
 
 Hallucination mitigation via prompt grounding (temperature=0, context-only generation) and a numeric verification heuristic. Deployed on Streamlit with per-stage latency metrics and source expanders for citation verification.
 
-[Live Demo →](https://github.com/Ishaan2510) · [GitHub →](https://github.com/Ishaan2510)
+[Live Demo →](https://github.com/Ishaan2510) · [GitHub →](https://github.com/Ishaan2510/f1-regulations-rag-system)
 
 ---
 
@@ -120,7 +118,7 @@ Hallucination mitigation via prompt grounding (temperature=0, context-only gener
 
 End-to-end ML pipeline over 60+ F1 races. Engineered 19 domain features (tyre degradation rate, undercut delta, stint length) with class balancing. LightGBM classifier: precision 80%, recall 81%, **ROC-AUC 87.4%** on a 3,100+ sample holdout. Deployed as a Streamlit app with SHAP force plot integration for per-prediction feature attribution.
 
-[View Project →](https://github.com/Ishaan2510)
+[View Project →](https://github.com/Ishaan2510/F1-pitstop-predictor)
 
 ---
 
