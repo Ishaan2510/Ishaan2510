@@ -2,11 +2,13 @@
 
 # Ishaan Goswami
 
-**Backend Engineer & ML Builder** · Flask · PostgreSQL · Redis · Azure · LightGBM · RAG
+**Backend & ML Engineer** · Building distributed systems and production AI
 
 *PDEU (B.Tech CS, CGPA 9.29) + IIT Madras (B.S. Data Science) · Graduating 2027 · Ahmedabad, India*
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-ishaangoswami.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ishaangoswami.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-796814282/)
+[![Mail](https://img.shields.io/badge/Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ishaangoswami735@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ishaan_102/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/ishaan_16)
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ishaan_102)
@@ -17,125 +19,66 @@
 
 ## About
 
-I build backend systems and ML pipelines that actually run in production — not just on my laptop.
+I build backend systems and ML pipelines that actually run in production. Not laptop demos, not tutorials — services with Kubernetes manifests, GitOps pipelines, race-condition guards, and the kind of incident I've debugged at 1 AM because Redis went down.
 
-Currently shipping a live F1 analytics platform (Azure VM, Gunicorn/gevent, Nginx, Vue.js frontend on Vercel) and have gone deep on the kinds of problems most undergrads only read about: race conditions under concurrent booking load, async task decoupling with Celery, real-time SSE feeds, and SHAP-based model interpretability for non-technical users.
-
-I'm a 3rd-year CS undergrad at PDEU with a parallel B.S. in Data Science from IIT Madras. I've qualified GATE CSE 2026. What I care about most is engineering decisions that have real consequences — not toy projects.
+Currently shipping Cortex (distributed task platform on Kubernetes with Argo CD), Pitlane Live (F1 analytics on Render + Supabase), and a RAG system over 589 pages of FIA regulations. GATE 2026 qualified in CSE. Looking for backend / ML systems internships where the work is hard and the production constraints are real.
 
 ---
 
 ## Tech Stack
 
-**Languages**
+[![Skills](https://skillicons.dev/icons?i=python,js,ts,cpp,nodejs,express,flask,vue,react,tailwind,mongodb,postgres,redis,docker,kubernetes,nginx,azure,vercel,git,github,linux,bash&perline=11)](https://skillicons.dev)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-**Backend & APIs**
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
-
-**Frontend**
-
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-
-**Cloud & DevOps**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**ML & GenAI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=flat-square&logo=lightgbm&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+**ML & GenAI:** PyTorch · scikit-learn · LightGBM · SHAP · LangChain · FAISS · HuggingFace · Sentence Transformers · Groq
 
 ---
 
-## Projects
+## Featured Projects
+
+### Cortex — Distributed AI Task Platform
+*React 19 · Node.js/Express 5 · Python worker · MongoDB · Redis · Docker · Kubernetes · Argo CD · GitHub Actions*
+
+A production-grade distributed task processing system. Tasks submitted from the React frontend are queued in Redis (`lPush`), picked up by a Python worker via blocking `brpop`, and tracked from `pending → running → success/failed` in real time. Every component containerised, every deployment declared as Kubernetes manifests, every push to `main` triggers a full build-push-deploy pipeline that Argo CD syncs to the cluster automatically.
+
+**The hard part:** GitOps-driven CI/CD. GitHub Actions builds Docker images, pushes to Docker Hub tagged with commit SHA, then updates the companion infra repo's manifests via `sed` and commits. Argo CD watches that repo with auto-sync, prune, and self-heal enabled. Cluster drift gets corrected automatically.
+
+[Repository →](https://github.com/Ishaan2510/cortex)
+
+---
 
 ### Pitlane Live — F1 Race Analytics Platform
-*Flask · Vue.js · FastF1 · PostgreSQL · Gunicorn/gevent · Nginx · Azure VM · Vercel*
+*Flask · Vue 3 · PostgreSQL (Supabase) · FastF1 · Gunicorn/gthread · Render*
 
-A full-stack F1 analytics platform I designed, built, and deployed end-to-end. Covers 23 circuits with animated race replay, a live SSE race feed with polling fallback, and a prediction scoring engine.
+Full-stack F1 platform with race replays, live standings, and user predictions. Originally deployed on Azure VM with Gunicorn + gevent + Nginx; migrated to Render + Supabase when Azure student credits ran out. Switched gevent → gthread workers to fix an SSL monkey-patching recursion error on Render's runtime. Pre-built race JSONs committed to the repo to keep the 512MB server within memory bounds.
 
-The production backend runs on Azure VM behind Nginx with gevent workers — chosen specifically to handle long-lived SSE connections without blocking the thread pool. Data ingestion and client serving are architected as independent concurrent processes so a stalled pipeline never kills API responsiveness.
-
-- Live telemetry pipeline: positional stream parsing + piecewise linear interpolation for sub-second trajectory reconstruction
-- JWT auth (HS256, 30-day expiry) with custom implementation — no library abstraction
-- Atomic JSON write pattern to prevent clients from reading a half-written data file mid-update
-- Season-wide prediction scoring with a ±2 lap window and confidence multiplier
-
-[View Project →](https://github.com/Ishaan2510/pitlane-live)
+[Live →](https://pitlane-live-three.vercel.app) · [Repository →](https://github.com/Ishaan2510)
 
 ---
 
-### VePark — Vehicle Parking Management System
-*Flask-RESTful · Vue.js · PostgreSQL · Redis · Celery · Flask-Security*
+### TechReg Analyst — F1 Regulations RAG System
+*LangChain · FAISS · BGE-small · Cross-Encoder Reranker · Groq LLaMA 3.1 8B · Streamlit*
 
-A parking management system built for the IIT Madras B.S. project — but engineered with the concurrency problems of a real production system.
+Production RAG over 589 pages of FIA 2026 F1 Regulations. Two-stage retrieval: BGE bi-encoder for recall (top-20 via FAISS), cross-encoder reranking for precision (top-5). **80% Section Match@1 at ~1,000ms retrieval latency, CPU-only, zero cost.** Three-layer hallucination mitigation: prompt grounding, temperature=0, and a numeric verification heuristic.
 
-The hard problem here was double-booking: two users booking the same spot at the same millisecond. Fixed it with `SELECT FOR UPDATE` inside an explicit transaction — the database row is locked for the duration of the check-and-write, making the operation atomic. Redis caches availability lookups with a 30-second TTL and gets invalidated on every write, so stale data never leaks to clients.
-
-- RBAC via Flask-Security with reusable `@admin_required` decorators
-- Celery async task layer: daily summary emails, monthly usage reports, CSV exports — all decoupled from the request lifecycle
-- Normalised schema across 5 entities with atomic state transitions on check-in/check-out
-
----
-
-### TechReg Analyst — F1 Regulation RAG System
-*Python · LangChain · FAISS · sentence-transformers · Groq (LLaMA 3.1 8B) · Streamlit*
-
-A production-grade RAG pipeline over 589 pages of FIA Formula 1 2026 Regulations. Built a two-stage retrieval architecture: BGE-small-en-v1.5 bi-encoder for recall (top-20 via FAISS ANN), then cross-encoder reranking for precision (top-5). Hits 80% Section Match@1 at ~1,000ms average retrieval latency on CPU with no GPU.
-
-Hallucination mitigation via prompt grounding (temperature=0, context-only generation) and a numeric verification heuristic. Deployed on Streamlit with per-stage latency metrics and source expanders for citation verification.
-
-[Live Demo →](https://github.com/Ishaan2510) · [GitHub →](https://github.com/Ishaan2510/f1-regulations-rag-system)
+[Live →](https://f1-regulations-rag-system.streamlit.app/) · [Repository →](https://github.com/Ishaan2510/f1-regulations-rag-system)
 
 ---
 
 ### F1 Pit Stop Effectiveness Predictor
-*Python · FastF1 · LightGBM · SHAP · Streamlit*
+*LightGBM · SHAP · FastF1 · Streamlit*
 
-End-to-end ML pipeline over 60+ F1 races. Engineered 19 domain features (tyre degradation rate, undercut delta, stint length) with class balancing. LightGBM classifier: precision 80%, recall 81%, **ROC-AUC 87.4%** on a 3,100+ sample holdout. Deployed as a Streamlit app with SHAP force plot integration for per-prediction feature attribution.
+End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degradation rate, undercut delta, stint length). LightGBM classifier on 3,100+ samples: **ROC-AUC 87.4%, precision 80%, recall 81%.** SHAP TreeExplainer for per-prediction feature attribution — every prediction explains itself.
 
-[View Project →](https://github.com/Ishaan2510/F1-pitstop-predictor)
-
----
-
-## Currently Building
-
-- Deepening system design skills: designing for scale, distributed consistency, and real-world tradeoffs
-- Strengthening DSA on LeetCode (target: Medium fluency across trees, graphs, DP, sliding window)
-- Interview preparation across CS fundamentals: OS, DBMS internals, networking, and frontend breadth
+[Live →](https://f1-pitstop-predictor-ig.streamlit.app/) · [Repository →](https://github.com/Ishaan2510)
 
 ---
 
-## Stats
+## GitHub Activity
 
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ishaan2510&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishaan2510&layout=compact&langs_count=7&theme=github_dark&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishaan2510&layout=compact&langs_count=8&theme=github_dark&hide_border=true"/>
 
 </div>
 
@@ -147,21 +90,51 @@ End-to-end ML pipeline over 60+ F1 races. Engineered 19 domain features (tyre de
 
 ---
 
-## Competitive Programming
+## Dashboard
+
+<div align="center">
+
+[![Dashboard stats of @Ishaan2510](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=162294081&image_size=auto&color_scheme=dark)](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=162294081)
+
+</div>
+
+---
+
+## DSA & Competitive Programming
+
+<div align="center">
+
+<a href="https://leetcode.com/u/ishaan_102/">
+  <img src="https://leetcard.jacoblin.cool/ishaan_102?theme=dark&font=Source%20Code%20Pro&ext=heatmap" alt="LeetCode Stats" />
+</a>
+
+</div>
 
 | Platform | Achievement |
 |---|---|
-| LeetCode | 100+ problems solved |
+| LeetCode | 150+ problems solved |
 | HackerRank | 5-Star in Python & SQL |
-| Codeforces | Peak Rating 1100 · 11 contests |
+| Codeforces | Peak Rating 1100 · 12 contests |
 | GATE 2026 | Qualified — Computer Science & Engineering |
 
 ---
 
-## Contact
+## Trophies
 
-- Email: [ishaangoswami735@gmail.com](mailto:ishaangoswami735@gmail.com)
-- LinkedIn: [ishaan-goswami](https://www.linkedin.com/in/ishaan-goswami-796814282/)
-- GitHub: [Ishaan2510](https://github.com/Ishaan2510)
+<div align="center">
 
-Open to backend engineering roles, ML system internships, and interesting problems. If you're building something with real concurrency or data at scale, I want to hear about it.
+[![trophy](https://github-profile-trophy.vercel.app/?username=Ishaan2510&theme=gruvbox&no-frame=true&row=1&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## Find Me On
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://ishaangoswami.vercel.app/)
+[![Mail](https://img.shields.io/badge/Mail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ishaangoswami735@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-796814282/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ishaan2510)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/ishaan_102/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/ishaan_16)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ishaan_102)
