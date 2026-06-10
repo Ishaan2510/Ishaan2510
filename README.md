@@ -2,10 +2,12 @@
 
 # Ishaan Goswami
 
+**Software Development Engineer** · Full-Stack · Distributed Systems · Applied ML
+
 *PDEU (B.Tech CS, CGPA 9.29) + IIT Madras (B.S. Data Science) · Graduating 2027 · Ahmedabad, India*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ishaangoswami.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ishaangoswami.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-796814282/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-io)
 [![Mail](https://img.shields.io/badge/Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ishaangoswami735@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ishaan_102/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/ishaan_16)
@@ -17,9 +19,10 @@
 
 ## About
 
-I build backend systems and ML pipelines that actually run in production. Not laptop demos, not tutorials — services with Kubernetes manifests, GitOps pipelines, race-condition guards, and the kind of incident I've debugged at 1 AM because Redis went down.
+I build software that ships to production. Full-stack web apps, ML pipelines, distributed systems on Kubernetes, whichever part the problem needs. Not laptop demos, not tutorials. Real services with race-condition guards, GitOps pipelines, and the kind of incident I've debugged at 1 AM because Redis went down.
 
-Currently shipping Cortex (distributed task platform on Kubernetes with Argo CD), Pitlane Live (F1 analytics on Render + Supabase), and a RAG system over 589 pages of FIA regulations. GATE 2026 qualified in CSE.
+Currently shipping Cortex (distributed task platform on Kubernetes with Argo CD), Pitlane Live (F1 analytics on Render + Supabase), and a RAG system over 589 pages of FIA regulations. GATE 2026 qualified in CSE. Looking for SDE / ML systems internships where the work is hard and the production constraints are real.
+
 ---
 
 ## Tech Stack
@@ -46,7 +49,7 @@ A production-grade distributed task processing system. Tasks submitted from the 
 ### Pitlane Live — F1 Race Analytics Platform
 *Flask · Vue 3 · PostgreSQL (Supabase) · FastF1 · Gunicorn/gthread · Render*
 
-Full-stack F1 platform with race replays, live standings, and user predictions. Originally deployed on Azure VM with Gunicorn + gevent + Nginx; migrated to Render + Supabase when Azure student credits ran out. Switched gevent → gthread workers to fix an SSL monkey-patching recursion error on Render's runtime. Pre-built race JSONs committed to the repo to keep the 512MB server within memory bounds.
+Full-stack F1 platform with race replays, live standings, and user predictions. Originally deployed on Azure VM with Gunicorn + gevent + Nginx; migrated to Render + Supabase when Azure student credits ran out. Switched gevent to gthread workers to fix an SSL monkey-patching recursion error on Render's runtime. Pre-built race JSONs committed to the repo to keep the 512MB server within memory bounds.
 
 [Live →](https://pitlane-live-three.vercel.app) · [Repository →](https://github.com/Ishaan2510)
 
@@ -64,34 +67,23 @@ Production RAG over 589 pages of FIA 2026 F1 Regulations. Two-stage retrieval: B
 ### F1 Pit Stop Effectiveness Predictor
 *LightGBM · SHAP · FastF1 · Streamlit*
 
-End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degradation rate, undercut delta, stint length). LightGBM classifier on 3,100+ samples: **ROC-AUC 87.4%, precision 80%, recall 81%.** SHAP TreeExplainer for per-prediction feature attribution — every prediction explains itself.
+End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degradation rate, undercut delta, stint length). LightGBM classifier on 3,100+ samples: **ROC-AUC 87.4%, precision 80%, recall 81%.** SHAP TreeExplainer for per-prediction feature attribution, every prediction explains itself.
 
 [Live →](https://f1-pitstop-predictor-ig.streamlit.app/) · [Repository →](https://github.com/Ishaan2510)
 
 ---
 
-## GitHub Activity
+## Activity Dashboard
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ishaan2510&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishaan2510&layout=compact&langs_count=8&theme=github_dark&hide_border=true"/>
+[![Dashboard stats of @Ishaan2510](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=162294081&image_size=auto&color_scheme=dark)](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=162294081)
 
 </div>
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Ishaan2510&theme=github-dark-blue&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## Dashboard
-
-<div align="center">
-
-[![Dashboard stats of @Ishaan2510](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=162294081&image_size=auto&color_scheme=dark)](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=162294081)
 
 </div>
 
@@ -116,22 +108,12 @@ End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degrada
 
 ---
 
-## Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Ishaan2510&theme=gruvbox&no-frame=true&row=1&column=7&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## Find Me On
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://ishaangoswami.vercel.app/)
 [![Mail](https://img.shields.io/badge/Mail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ishaangoswami735@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-796814282/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-io)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ishaan2510)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/ishaan_102/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/ishaan_102)
 [![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/ishaan_16)
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ishaan_102)
