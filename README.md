@@ -77,7 +77,7 @@ End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degrada
 
 <div align="center">
 
-[![Dashboard stats of @Ishaan2510](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=162294081&image_size=auto&color_scheme=dark)](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=162294081)
+[![Dashboard stats of @Ishaan2510](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=162294081&image_size=auto&color_scheme=light)](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=162294081)
 
 </div>
 
