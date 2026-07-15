@@ -102,10 +102,10 @@ End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degrada
 
 | Platform | Achievement |
 |---|---|
-| LeetCode | 150+ problems solved |
+| LeetCode | Knight |
 | HackerRank | 5-Star in Python & SQL |
-| Codeforces | Peak Rating 1100 · 12 contests |
-| GATE 2026 | Qualified — Computer Science & Engineering |
+| Codeforces | Specialist |
+| GATE 2026 | Qualified - Computer Science & Engineering |
 
 ---
 
