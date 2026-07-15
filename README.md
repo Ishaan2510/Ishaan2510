@@ -2,9 +2,7 @@
 
 # Ishaan Goswami
 
-**Software Development Engineer** · Full-Stack · Distributed Systems · Applied ML
-
-*PDEU (B.Tech CS, CGPA 9.29) + IIT Madras (B.S. Data Science) · Graduating 2027 · Ahmedabad, India*
+*PDEU (B.Tech CS, CGPA 9.31) + IIT Madras (B.S. Data Science) · Graduating 2027 · Ahmedabad, India*
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ishaangoswami.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ishaangoswami.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishaan-goswami-io)
@@ -21,7 +19,6 @@
 
 I build software that ships to production. Full-stack web apps, ML pipelines, distributed systems on Kubernetes, whichever part the problem needs. Not laptop demos, not tutorials. Real services with race-condition guards, GitOps pipelines, and the kind of incident I've debugged at 1 AM because Redis went down.
 
-Currently shipping Cortex (distributed task platform on Kubernetes with Argo CD), Pitlane Live (F1 analytics on Render + Supabase), and a RAG system over 589 pages of FIA regulations. GATE 2026 qualified in CSE.
 ---
 
 ## Tech Stack
