@@ -73,6 +73,11 @@ End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degrada
 
 <div align="center">
 
+<!-- This links to your local file and skips GitHub's cache proxy entirely -->
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
+
+<div align="center">
+
 [![Dashboard stats of @Ishaan2510](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=162294081&image_size=auto&color_scheme=light)](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=162294081)
 
 </div>
