@@ -31,27 +31,27 @@ I build software that ships to production. Full-stack web apps, ML pipelines, di
 
 ## Featured Projects
 
-### Cortex — Distributed AI Task Platform
+### Cortex - Distributed AI Task Platform
 *React 19 · Node.js/Express 5 · Python worker · MongoDB · Redis · Docker · Kubernetes · Argo CD · GitHub Actions*
 
 A production-grade distributed task processing system. Tasks submitted from the React frontend are queued in Redis (`lPush`), picked up by a Python worker via blocking `brpop`, and tracked from `pending → running → success/failed` in real time. Every component containerised, every deployment declared as Kubernetes manifests, every push to `main` triggers a full build-push-deploy pipeline that Argo CD syncs to the cluster automatically.
 
 **The hard part:** GitOps-driven CI/CD. GitHub Actions builds Docker images, pushes to Docker Hub tagged with commit SHA, then updates the companion infra repo's manifests via `sed` and commits. Argo CD watches that repo with auto-sync, prune, and self-heal enabled. Cluster drift gets corrected automatically.
 
-[Repository →](https://github.com/Ishaan2510/cortex)
+[Live →](https://cortex-ai-task-platform.vercel.app) · [Repository →](https://github.com/Ishaan2510/cortex)
 
 ---
 
-### Pitlane Live — F1 Race Analytics Platform
+### Pitlane Live - F1 Race Analytics Platform
 *Flask · Vue 3 · PostgreSQL (Supabase) · FastF1 · Gunicorn/gthread · Render*
 
 Full-stack F1 platform with race replays, live standings, and user predictions. Originally deployed on Azure VM with Gunicorn + gevent + Nginx; migrated to Render + Supabase when Azure student credits ran out. Switched gevent to gthread workers to fix an SSL monkey-patching recursion error on Render's runtime. Pre-built race JSONs committed to the repo to keep the 512MB server within memory bounds.
 
-[Live →](https://pitlane-live-three.vercel.app) · [Repository →](https://github.com/Ishaan2510)
+[Live →](https://pitlane-live-f1.vercel.app) · [Repository →](https://github.com/Ishaan2510)
 
 ---
 
-### TechReg Analyst — F1 Regulations RAG System
+### TechReg Analyst - F1 Regulations RAG System
 *LangChain · FAISS · BGE-small · Cross-Encoder Reranker · Groq LLaMA 3.1 8B · Streamlit*
 
 Production RAG over 589 pages of FIA 2026 F1 Regulations. Two-stage retrieval: BGE bi-encoder for recall (top-20 via FAISS), cross-encoder reranking for precision (top-5). **80% Section Match@1 at ~1,000ms retrieval latency, CPU-only, zero cost.** Three-layer hallucination mitigation: prompt grounding, temperature=0, and a numeric verification heuristic.
@@ -91,14 +91,6 @@ End-to-end ML pipeline over 60+ Grand Prix. 19 engineered features (tyre degrada
 ---
 
 ## DSA & Competitive Programming
-
-<div align="center">
-
-<a href="https://leetcode.com/u/ishaan_102/">
-  <img src="https://leetcard.jacoblin.cool/ishaan_102?theme=dark&font=Source%20Code%20Pro&ext=heatmap" alt="LeetCode Stats" />
-</a>
-
-</div>
 
 | Platform | Achievement |
 |---|---|
